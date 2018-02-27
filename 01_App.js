@@ -12,7 +12,7 @@ app.set('view engine', 'ejs'); // générateur de template
 
 
 //db.adresse.find().pretty()
-
+//Affiche contenu
 app.get('/', function (req, res) {
 	 var cursor = db.collection('adresse').find().toArray(function(err, resultat){
  if (err) return console.log(err)
