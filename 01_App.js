@@ -2,6 +2,9 @@ const express = require('express');
 const app = express();
 const fs = require("fs");
 
+
+
+
 app.use(express.static('public'));
 //va chercher serveur mongo
 const MongoClient = require('mongodb').MongoClient
@@ -21,6 +24,9 @@ app.get('/', function (req, res) {
   res.render('gabarit.ejs', {adresses: resultat})  
   });
 })
+
+
+
 
 //ajoute l'information dans bd
 app.post('/ajouter', (req, res) => {
