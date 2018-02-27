@@ -1,0 +1,23 @@
+{
+  "name": "veille-node-5-master",
+  "version": "1.0.0",
+  "description": "Exercice 5",
+  "main": "01_App.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "ejs",
+    "mongodb"
+  ],
+  "author": "Arnaud Ayotte",
+  "license": "ISC"
+}
